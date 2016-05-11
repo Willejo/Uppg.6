@@ -1,3 +1,2 @@
 # Uppg.6
-Skolprojekt en fansite om Avengers
-En fansite om Avengersfilmerna. Underuppbyggnad ingår i ett skolprojekt.
+Skolprojekt en fansite om Avengers. Under uppbyggnad, tillkommer fler filmer med tiden.
