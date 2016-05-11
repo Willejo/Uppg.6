@@ -1,0 +1,114 @@
+/* Extern CSS-fil som styr utseendet för sidan när den körs på webbläsare i datorn.
+Viktor Unosson
+890323
+ad0816 */
+
+
+/* Body */
+body {
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: #C3C3C3
+}
+#wrapper {
+		max-width:1100px;
+		margin:0 auto;
+		background-color: #eee;
+		box-shadow: 0 0 5px #666;
+}
+/* Navigation */
+aside {
+		position: relative;
+		width:200px;
+		float:left;
+		background-color:#eee;
+}
+#logo {
+		width: 100%;
+}
+aside > h2 {
+		text-align: center;
+		text-shadow: 0 0 2px #717171;
+		font-size: 30px;
+}
+aside a:link, a:visited {
+		background-color: #8E8E8E;
+		color: white;
+		padding: 14px 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		border-radius: 10px;
+		margin: 5px;
+		width: 75%;
+}
+aside a:hover, a:active {
+    	background-color: #717171;
+}
+a.active {
+    background-color: #1A5EFC;
+    color: white;
+}
+/* Inner content */
+#inner {
+		overflow:hidden;
+}
+/* Header */
+#inner > header {
+		min-height:100px;
+		width: 100%;
+		background-color: #eee;
+		text-align: center;
+}
+#headLogo {
+		width: 50%;
+}
+/* Section article */
+#content {
+		width:900px;
+		padding: 10px;
+		float:left;
+		background-color:#ccc
+}
+.ThreeInARow {
+		float:left;
+		width: 30%;
+		padding: 1%;
+		font-size: 12px;
+}
+.ThreeInARowPic {
+		width: 60%;
+		border-radius: 15px;
+}
+#TheTeams {
+		overflow: hidden;
+		float: left;
+		border-top: 2px solid;
+		border-bottom: 2px solid;
+		width: 880px;
+}
+#TheTeamPic {
+		width: 30%;
+		float: right;
+		margin: 0 20px 30px 5px;
+}
+#TeamIronMan {
+		color: #FF0000;
+}
+#TeamCaptainAmerica {
+		color: #1A5EFC;
+}
+/* Footer */
+footer {
+		width: 900px;
+		float: right;
+		height: auto;
+		line-height: 70px;
+		text-align: center;
+		overflow: hidden;
+		clear: both;
+		background-color: #eee;
+}
+#CSSval {
+		float: right;
+		margin: 10px 10px 0 0;
+}

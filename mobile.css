@@ -1,0 +1,67 @@
+/* Extern CSS-fil som styr utseendet för sidan när den körs på webbläsare i mobilen.
+Viktor Unosson
+890323
+ad0816 */
+
+/* Outer */
+#wrapper {
+		max-width: 100%;
+		margin:0 auto;
+		background-color: #eee;
+		box-shadow: 0 0 5px #666;
+}
+/* Content */
+#inner {
+		overflow:hidden;
+		height: auto;
+}
+#inner > header {
+		display: block;
+}
+#headLogo {
+		width: 100%;
+		height: auto;
+}
+.ThreeInARow {
+		float: none;
+		width: 35%;
+		padding: 1%;
+}
+.ThreeInARowPic {
+		display: block;
+		width: 100%;
+		border-radius: 15px;
+}
+#TheTeams {
+		float: none;
+		width: 35%;
+}
+#TheTeamPic {
+		display: block;
+		width: 100%;
+		border-radius: 15px;
+		float: none;
+}
+/* Navigation */
+aside {
+		float:none;
+		text-align: center;
+		display: block;
+		width: 100%;
+}
+#logo {
+		width: 50%;
+		display: block;
+		margin-left: 25%;
+		margin-right: 25%;
+}
+/* Footer */
+footer {
+		width: 100%;
+		float: none;
+		overflow: hidden;
+		clear: both;
+}
+#CSSval {
+		float: none;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="SE"><!--lang definierar vilket språk hemsidan är skriven på. Bra att ha med
+om sidan ska översättas.-->
+	<head>
+		<title>Avengers fansite</title>
+		<meta charset="utf-8"> <!--Definierar att åäö kan skrivas ut-->
+		<!--Koden nedan gör det möjligt att köra HTML5 script på IE 9.-->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/➥
+				html5.js"></script>
+		<![endif]-->
+		<meta name="author" content="Viktor Unosson, 890323, ad0816"><!--Namn på författaren till hemsidan-->
+		<link rel="stylesheet" type="text/css" href="desktop.css"><!--Koppling till extern CSS-fil för desktop.-->
+		<link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 480px)"><!--Koppling till extern CSS-fil för mobil.-->
+	</head>
+	<body>
+		<div id="wrapper"><!--Wrapper tänker in hela sidan, ligger innanför body.-->
+			<aside><!--Sidofält till höger på sidan, innehåller sidans logga och navigeringsknappar till övriga sidor.-->
+				<img src="Bilder/logo.png" alt="Avengers logo" id="logo">
+				<h2>Meny</h2>
+				<nav><!--I nuläget leder inte länkar någonstans.-->
+					<a href="#Start">Start</a>
+					<a class="active" href="#AllAvengers">Avengers filmer</a>
+					<a href="#Om">Om</a>
+					<a href="#Kontakt">Kontakt</a>
+				</nav>
+			</aside>
+			<div id="inner"><!--Div till höger om naverigen, ligger inne i wrapper.-->
+				<header>
+					<img src="bilder/headCapA.png" alt="Marvel: Captain America - Civil war" id="headLogo">
+				</header>
+				<div id="content">
+					<!--Nedan presenteras tre articles som alla har en bild en och kort text. Dessa presenteras på rad.-->
+					<div class="ThreeInARow">
+						<img src="bilder/CapA.jpg" alt="Captain America portrait, divided we fall" class="ThreeInARowPic">
+						<p>Meningarna har delat upp medlemmarna i Avengers i två grupper. De som står på Captain Americas sida och håller
+						med honom vad gäller värderingar och de som står på Iron Mans sida. <p>
+					</div>
+					<div class="ThreeInARow">
+						<img src="bilder/CapIron.jpg" alt="Captain America infront of Iron Man" class="ThreeInARowPic">				
+						<p>En dispyt växer mellan de två sidorna. Den ena sidan, ledd av Captain America, vill fortsätta styra över sin egen
+						hjälteinverkan. Något som Tony Stark och hans följare anser vara föråldrat och ser en chans att få fortsätta hjälpa
+						utan att klassas som brottslingar. Allt efter som dispyten växer måste den splittrade gruppen också handskas mot
+						anhängare till Hydra, en fiende varit med i alla Captain America filmer.<p>
+					</div>
+					<div class="ThreeInARow">
+						<img src="bilder/IronM.jpg" alt="Iron Man portrait, divided we fall" class="ThreeInARowPic">			
+						<p>Iron Man (Tony Stark) försöker få med sig de andra och rösta genom regeringens förslag. Något som ska visa vara
+						lättare sagt än gjort.<p>
+					</div>
+					<article id="TheTeams">
+						<h2>De två sidorna</h2>
+						<img src="bilder/TheTeams.jpg" alt="Captain Americas team and Iron Mans team in the movie" id="TheTeamPic">
+						<h3 id="TeamIronMan">Team Iron Man</h3>
+						<p>På Tony Stark sida hittar vi en del gamla karaktärer så som Black Widow, Iron Patriot och Vision. Bland de nytillkomna
+						hjältarna på Tony Starks sida finner vi Black Panther och Spider-Man. Där båda kommer få egna filmer inom de kommande åren.<p>
+						<h3 id="TeamCaptainAmerica">Team Captain America</h3>
+						<p>Till Captain America har Winter Solider, Falcon, Hawkeye och Scarlet Witch anslutit sig, samt en femte Marvel hjälte som kan
+						återses i filmen. Lite spänning lämnar vi tills dess också.</p>
+					</article>
+				</div>
+				<footer>
+					Skriven i HTML5
+					<p id="CSSval"><a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"
+					src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a></p>
+				</footer>
+			</div>	
+		</div>
+	</body>
+</html>
